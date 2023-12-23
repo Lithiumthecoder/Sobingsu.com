@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobingsu</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 0.5em 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 1em;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #FFD700; /* Change the color on hover (adjust as needed) */
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+            justify-content: center;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 300px; /* Set max width for responsiveness */
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1); /* Enlarge the image on hover (adjust as needed) */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><img src="https://images.deliveryhero.io/image/talabat/restaurants/logo_39638174576035474449.jpg?width=180" alt="Sobingsu"></h1>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#bestsellers">Bestsellers</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Sobingsu, an extraordinary culinary destination situated in the heart of Qatar. At Sobingsu, we pride ourselves on offering a delightful journey through the rich tapestry of Asian cuisine, accompanied by an enticing selection of beverages and decadent cakes. Our restaurant is conveniently located in Bin Mahmoud, providing a central and inviting space for food enthusiasts.
+<h3>Our Philosophy</h3>
+<p>At Sobingsu, we believe in more than just serving delicious dishes; we are passionate about creating memorable experiences. Each recipe is thoughtfully crafted with care, using only the finest ingredients to ensure an authentic and unforgettable dining adventure for our cherished customers.</p>
+<h3>Our Unique Atmosphere</h3>
+<p>Step into Sobingsu and immerse yourself in an atmosphere that seamlessly blends the warmth of tradition with a modern and inviting ambiance. Whether you're seeking a casual meal, celebrating a special occasion, or simply enjoying a quick coffee break, Sobingsu welcomes you with open arms.</p>
+        </p>
+    </section>
+
+    <section id="bestsellers">
+        <h2>Bestsellers</h2>
+        <p>Our best selling dishes are:</p>
+        <ul>
+            <li>Spicy Creamy Rosé Topokki</li>
+            <li>Honey Toast</li>
+            <li>Seoul Coffee</li>
+            <li>Matcha Latte</li>
+        </ul>
+        <div class="gallery">
+            <img src="https://images.deliveryhero.io/image/talabat/MenuItems/mmw_638384101330837745" alt="Gallery">
+            <img src="https://images.deliveryhero.io/image/talabat/Menuitems/Plain_Croffle638174579825705713.jpg" alt="Gallery">
+            <img src="https://images.deliveryhero.io/image/talabat/MenuItems/Hot_Seoul_Coffee638174579815398688.jpg" alt="Gallery">
+            <img src="data:image/jpeg;base64,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" alt="Ooops! Looks Like You're Internet Is Bad! Please Get Some.">
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipMnKQMXM73rq5z849vPRuF9S6ACWh_zzZQ2HT3z=s680-w680-h510"height=400 alt="Gallery Image 1">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipPF2D6qIwmiyUhCOqUnaqjAajftNi1nVibwq0DV=s680-w680-h510"height=400 alt="Gallery Image 2">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipO0Z_srXXWIQkPXPkzXYAx0YBkjoEscAXNgM22b=s680-w680-h510" alt="Gallery Image 3">
+            <!-- Add more image placeholders as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Address: Amara Building, Ibn Mahmoud St, Doha.</p>
+        <p>Opening Hours: 12pm to 2am every day (delivery 12pm to 1:30 am)</p>
+        <p>Specials/Promotions: None</p>
+    </section>
+
+    <footer>
+        <!-- Add your footer content here -->
+    </footer>
+</body>
+</html>
